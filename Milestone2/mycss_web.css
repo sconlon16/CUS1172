@@ -47,11 +47,6 @@ background-color: white;
 text-align:center;
 padding:20px;
 }
-.centervideo{
-  background-color: white;
-  text-align:center;
-  padding:20px;
-}
 #sectionwhite{
 background-color: white;
 }
@@ -65,4 +60,11 @@ width: 50%;
 display:inline-grid;
 width: 113px;
 margin: auto;
+}
+
+#videoStyling {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
