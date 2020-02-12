@@ -1,0 +1,62 @@
+
+@media all {
+  body{
+    background-color: lightgrey;
+  }
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  background-color: lightblue;
+  }
+.menuitem {
+  font-family: georgia,serif;
+  background: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+.section{
+background-color: darkblue;
+color: white;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+}
+.subtitle{
+color:darkblue;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+}
+.coding-language {
+color: darkblue
+}
+.Header{
+background-color:lightblue;
+color:black;
+padding:20px;
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+}
+.sectionwhite{
+background-color: white;
+}
+#sectionwhite{
+background-color: white;
+}
+#center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+#align-center{
+text-align:center;
+padding:20px;
+}
+#inline{
+display:inline-grid;
+width: 113px;
+margin: auto;
+}
