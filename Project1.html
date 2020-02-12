@@ -6,7 +6,7 @@
 <body>
 
   <div>
-  <h1> Menu </h1>
+  <h1 style="color:red;text-align:center"> Menu </h1>
   <form>
     <select>
       <option>Select Page Section Here</option>
@@ -30,21 +30,50 @@
   <!-- The following div is basic profile info -->
   <div id="Basic profile information" >
     <h2>Basic information</h2>
-    <img src="https://scontent.fewr1-5.fna.fbcdn.net/v/t1.0-1/13237820_992835017420493_6602837965209792257_n.jpg?_nc_cat=109&_nc_ohc=ijRSfFGeNlYAX9TJyGv&_nc_ht=scontent.fewr1-5.fna&oh=f554aa6514cff214d2749afd51a7d198&oe=5ED3638B" />
+    <img src="https://sconlon16.github.io/CUS1172/Me.jpg" />
     <p> My name is Sean Conlon, I am a Computer Science major with a
       dual minor in business and cyber security. </p>
     <p>If you would like to contact me, please enter your name, email and message below. I will get back to you as soon as possible.</p>
+<!--
+  -trial 1-
+    <form action="mailto:sean.conlon16@my.stjohns.edu" method="GET">
+        Name:
+        <input name="Name" type="text" /><br>
+        Email:
+        <input name="Email" type="text" /><br>
+        Message:
+        <textarea name="body"></textarea><br>
+        <input type="submit" name="submit" value="Submit" />
+        <input type="reset" name="reset" value="Reset" />
+    </form>
+
+  -trial 2 -
+    <form action="mailto:sean.conlon16@my.stjohns.edu" method="GET" enctype="text/plain">
+      <p>Name:
+      <input type="text" name="name"/></p>
+      <p>Email:
+      <input type="text" name="email"/></p>
+      <p>Comments:
+        <br />
+        <textarea name="Message" rows = "10" cols = "35">Type your message here.</textarea></p>
+        <br>
+      <p><input type="submit" name="submit" value="Send" />
+         <input type="reset" name="reset" value="Reset" />
+      </p>
+      </form>
+-->
+
     <form action="mailto:sean.conlon16@my.stjohns.edu" method="post" enctype="text/plain">
         Name:
-        <input type="text"><br><br>
+        <input type="text" name="text"><br><br>
         Email:
-        <input type="text"><br><br>
+        <input type="text" name="text"><br><br>
         Message:
-        <input type="text"><br><br>
+        <input type="text" name="text"><br><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
     </form>
-  </div>
+    </div>
 
   <div id="Education summary" >
     <h2> Education </h2>
@@ -85,7 +114,7 @@
 
       <div id="General interests" >
         <h2> General Interests</h2>
-        <table style="width:100%">
+        <table style="width:60%">
           <tr>
             <th>Artists</th>
             <th>Films</th>
@@ -113,7 +142,7 @@
 
         <p> Here is a clip from one of my favorite movies, Harry Potter. </p>
         <video width="370" height="200" controls>
-  <source src="/Users/sconl529/Desktop/Web App Dev/RPReplay_Final1580781682.mp4" type="video/mp4">
+  <source src="https://sconlon16.github.io/CUS1172/HarryPotterClip.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
         <h3> Favorite websites </h3>
@@ -122,7 +151,10 @@
         <a href="https://www.marketwatch.com/"target="_blank">MarketWatch</a>
 
         <h3> My Projects in this Course </h3>
-        <a href="github.com"target="_blank">Project 1</a>
+        <a href="https://sconlon16.github.io/CUS1172/Project1.html"target="_blank">Project 1</a>
+
+        <br>
+        <br>
 
     </div>
 </body>
