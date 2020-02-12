@@ -6,8 +6,9 @@
 }
 table, th, td {
   border: 1px solid black;
-  text-align: center;
   background-color: lightgreen;
+  margin-left:auto;
+  margin-right:auto;
   }
 .menuitem {
   font-family: georgia,serif;
@@ -22,12 +23,12 @@ table, th, td {
 background-color: darkgreen;
 color: white;
 text-align:center;
-font-family: Georgia, serif;
+font-family:"Georgia",serif;
 }
 .subtitle{
 color:darkgreen;
 text-align:center;
-font-family: Georgia, serif;
+font-family:"Georgia",serif;
 }
 .coding-language {
 color: darkgreen
@@ -37,10 +38,15 @@ background-color:lightgreen;
 color:black;
 padding:20px;
 text-align:center;
-font-family: Georgia, serif;
+font-family:"Georgia",serif;
 }
 .sectionwhite{
 background-color: white;
+}
+.centerinpage{
+text-align:center;
+padding:20px;
+}
 }
 #sectionwhite{
 background-color: white;
@@ -51,12 +57,15 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 }
-#align-center{
-text-align:center;
-padding:20px;
-}
 #inline{
 display:inline-grid;
 width: 113px;
 margin: auto;
+}
+
+#videoStyling {
+ align-content: center;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
 }
