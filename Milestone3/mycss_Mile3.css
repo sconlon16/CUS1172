@@ -1,0 +1,72 @@
+@media only screen and (min-width: 600px) {
+  div.example {
+   font-size: 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  div.example {
+   font-size: 20px;
+ }
+   [class*="videoStyling"] {
+    width: 150%;
+  }
+}
+
+
+#backgroundStyling{
+  background-color: #f2f0eb;
+}
+#BasicInformation {background-color: #f2f0eb;
+}
+#Education {background-color: #f2f0eb;
+}
+#WorkExperience {background-color: #f2f0eb;
+}
+#ProgrammingSkills {background-color: #f2f0eb;
+}
+#GeneralInterests {background-color: #f2f0eb;
+}
+#MyProjects {background-color: #f2f0eb;
+}
+.section{
+background-color: darkblue;
+color: white;
+text-align:center;
+font-family:verdana,serif;
+}
+.subtitle{
+color:darkblue;
+text-align:center;
+font-family:verdana,serif;
+}
+.coding-language {
+color: darkblue
+}
+.Header{
+background-color:lightblue;
+color:black;
+padding:10px;
+text-align:center;
+font-family:verdana,serif;
+}
+.sectionwhite{
+background-color: white;
+}
+.centerinpage{
+text-align:center;
+padding:20px;
+}
+#inline{
+display:inline-grid;
+width: 113px;
+margin: auto;
+}
+#imageStyling {
+  width: 100%
+}
+#videoStyling {
+  display: block;
+	width: auto;
+	margin: auto;
+  width: 100%;
+text-align: center;}
